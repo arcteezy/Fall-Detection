@@ -45,14 +45,14 @@ void loop()
   
   if((pitch>35)||(pitch<-35)||(roll>35)||(roll<-35))
   {
-    bluetooth.println("Free fall detected.");
-  Serial.print("Free fall detected.");
+    bluetooth.println("Fall detected.");
+  Serial.print("Fall detected.");
   }
   
   
   Serial.println();
   
-  delay(1000);
+  delay(3000);
 }
 
 
